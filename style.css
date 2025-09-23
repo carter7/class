@@ -1,46 +1,49 @@
 
+
 body {
-    background-color: #f4f4f9;  
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e0f7fa;  
+    font-family: "Times New Roman", Times, serif; 
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #333;
+    color: #2c3e50; 
 }
 
 
 h1, h2, h3 {
     text-align: center;
-    color: #2c3e50; 
+    color: #004d40; 
 }
 
 
 p {
     font-size: 16px;
     margin: 10px 20px;
+    color: #2c3e50; 
 }
 
 .highlight {
-    background-color: #ffeaa7; 
+    background-color: #fff176; 
+    color: #004d40; 
     padding: 5px;
     border-radius: 5px;
     text-align: center;
 }
 
 .dog-facts {
-    color: #0984e3; 
+    color: #004d40;
     font-weight: bold;
 }
 
-
 #header {
-    background-color: #2c3e50; 
-    color: #fff;
+    background-color: #00695c;
+    color: #ffffff; 
     padding: 20px;
 }
 
 #footer {
-    background-color: #dfe6e9; 
+    background-color: #00796b;
+    color: #ffffff; 
     text-align: center;
     padding: 15px;
     font-size: 14px;
@@ -49,7 +52,7 @@ p {
 
 
 a {
-    color: #0984e3;
+    color: #004d40;
     text-decoration: none;
     font-weight: bold;
 }
@@ -67,7 +70,6 @@ a:hover {
     align-items: flex-start;
     margin: 20px;
 }
-
 
 .text-section {
     flex: 1;
@@ -93,11 +95,33 @@ ul, ol {
     margin-bottom: 15px;
 }
 
+.button, .cta {
+    display: inline-block;
+    background-color: #ffb74d; 
+    color: #004d40; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover, .cta:hover {
+    background-color: #ffa726; 
+}
 
 @media (max-width: 768px) {
     .container {
         flex-direction: column; 
     }
-}
 
-  
+    p {
+        font-size: 15px; 
+        margin: 10px 15px;
+    }
+
+    .button, .cta {
+        padding: 8px 16px;
+    }
+}
