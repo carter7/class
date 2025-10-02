@@ -1,0 +1,95 @@
+
+
+body {
+    background-color: #e0f7fa;  
+    font-family: "Times New Roman", Times, serif; 
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #2c3e50; 
+}
+
+h1, h2, h3 {
+    color: #004d40; 
+    text-align: center;
+}
+
+p {
+    font-size: 16px;
+    color: #2c3e50; 
+}
+
+.highlight {
+    background-color: #fff176; 
+    color: #004d40; 
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.dog-facts {
+    color: #004d40;
+    font-weight: bold;
+}
+
+#header {
+    background-color: #00695c;
+    color: #ffffff; 
+    padding: 20px 0;
+}
+
+#footer {
+    background-color: #00796b;
+    color: #ffffff; 
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+a {
+    color: #004d40;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.button, .cta {
+    display: inline-block;
+    background-color: #ffb74d; 
+    color: #004d40; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 10px 0;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover, .cta:hover {
+    background-color: #ffa726; 
+}
+
+.image-section img {
+    border-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+ul, ol {
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+    p {
+        font-size: 15px; 
+    }
+
+    .button, .cta {
+        padding: 8px 16px;
+    }
+}
